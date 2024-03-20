@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+header {
+    padding: 20% 5;
+}
+
+cabecalho icon{
+    right: 1px;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+}
+table{
+    margin-left:1px + 10%;
+    border: 1;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
