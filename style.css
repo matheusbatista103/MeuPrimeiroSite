@@ -1,30 +1,47 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html, body{
-    height: 100%;
+header{
+    padding: 1%;
+    background-color: rgba(241, 159, 217, 0.664);
 }
 
-
-header {
-    padding: 20% 5;
+header img{
+    width: 50px;
+    height: 50px;
 }
 
-cabecalho icon{
-    right: 1px;
+header{
+    margin: auto;
     top: 10px;
-    width: 10px;
-    height: 10px;
+}
+body{
+    background-color: rgb(255, 122, 178);
+    margin: auto;
+    width: 80%;
+}
+h2{
+    color: blueviolet;
+}
+li{
+    color: rgb(255, 0, 128);
+}
+ul{
+    list-style-type: square;
 }
 table{
     margin-left:1px + 10%;
     border: 1;
+    border-collapse: collapse;
 }
-
 table, th, td {
     border:1px solid black;
-  }
+}
+th{
+    color: red;
+}
+td{
+    text-align: center;
+}
