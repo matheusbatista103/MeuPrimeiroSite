@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(191, 191, 191);
+}
+
+header{
+    background-color: rgb(77, 139, 195);
+    padding: 3%;
+}
+
+.logo{
+    background-color: rgb(255, 255, 0);
+}
+
+nav{
+    background-color: rgb(184, 209, 231);
+}
+
+main{
+    background-color: rgb(146, 208, 80);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: rgb(241, 214, 226);
+}
+
+footer{
+    background-color: rgb(112, 48, 160);
+    padding: 3%;
+}
+
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.24em;
+}
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
