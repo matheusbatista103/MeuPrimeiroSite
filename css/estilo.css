@@ -1,34 +1,31 @@
 body{
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(28, 28, 28);
+    color: yellow;
 }
 
 header{
-    background-color: rgb(77, 139, 195);
+    background-color: rgba(0, 0, 0, 0.342);
     padding: 3%;
 }
-
-.logo{
-    background-color: rgb(255, 255, 0);
-}
-
 nav{
-    background-color: rgb(184, 209, 231);
+    background-color: rgba(234, 255, 0, 0.557);
 }
 
 main{
-    background-color: rgb(146, 208, 80);
+    background-color: rgb(0, 0, 0);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 section{
-    background-color: rgb(241, 214, 226);
+    background-color: rgb(101, 106, 2);
 }
 
 footer{
-    background-color: rgb(112, 48, 160);
+    background-color: rgb(21, 21, 21);
     padding: 3%;
+    text-align: center;
 }
 
 .cabecalho{
@@ -38,7 +35,8 @@ footer{
 .rodape{
     padding: 3%;
 }
-p{
+
+p {
     line-height: 1.5;
     font-size: 1.24em;
 }
@@ -48,7 +46,7 @@ ul li{
     font-size: 1.2em;
 }
 
-.titulos{
+h2, h1{
     line-height: 3;
     text-align: center;
     font-weight: bold;
@@ -61,17 +59,32 @@ table {
   }
   
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #fffb00;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #42c3dd86;
+    background-color: #4b4b4b;
   }
 body {
   font-family: "Literata", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+h3 {
+    text-align: left;
+    font-weight: bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5em;
+}
+.eps{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
 }
