@@ -3,85 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo HTML Semântico</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilo.css "><link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/logo.jpg" type="logo.jpg">
-  </head>
-    <body>
-    <header class="cabecalho">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
         <div class="logo">
-              <img src="img/star_wars_logo.png" alt="logo" height="70px" width="100px">
+            <img src="./assets/Logo.png" width="200px" height="auto">
         </div>
-        <nav>
-            <p>Menu</p>
+        <nav class="menu">
+            <a href="#Inicio">Home</a>
+            <a href="#historia">História</a>
+            <a href="#filmes">Filmes</a>
+            <a href="#personagens">Personagens</a>
+            <a href="#curiosidades">Curiosidades</a>
         </nav>
     </header>
+    
     <main>
-        <h1>Star Wars</h1>
-        <section>
-            <p>Star Wars (Brasil: Guerra nas Estrelas / Portugal: Guerra das Estrelas) é uma franquia do tipo space opera estadunidense criada pelo cineasta George Lucas, que conta com uma série de nove filmes de fantasia científica e dois spin-offs.[1] O primeiro filme foi lançado apenas com o título Star Wars,[2] em 25 de maio de 1977, e tornou-se um fenômeno mundial inesperado de cultura popular,[3] sendo responsável pelo início da "era dos blockbusters", que são superproduções cinematográficas que fazem sucesso nas bilheterias e viram franquias com brinquedos, jogos, livros, etc. Foi seguido por duas sequências, The Empire Strikes Back e Return of the Jedi, lançadas com intervalos de três anos, formando a trilogia original,[4][5] que segue o trio icônico formado por Luke Skywalker, Han Solo e Princesa Leia, que luta pela Aliança Rebelde para derrubar o tirano Império Galáctico; paralelamente ocorre a jornada de Luke para se tornar um cavaleiro Jedi e a luta contra Darth Vader, um ex-Jedi que sucumbiu ao Lado Sombrio da Força e ao Imperador.</p>
+        <section id="Inicio">
+            <div class="container">
+                <img src="./assets/Barbie.png" width="500px" height="auto">
+                <h1 class="titulo">Barbie</h1>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h2>História da Barbie</h2>
+            <p>A Barbie foi lançada em 9 de março de 1959 por Ruth Handler, co-fundadora da Mattel, durante a Feira de Brinquedos de Nova York. Desde então, Barbie tem inspirado milhões de crianças a sonhar grande e explorar seu potencial.</p>
+            <p>Originalmente, Barbie foi concebida como uma "manequim adolescente" e seu nome completo é Barbara Millicent Roberts.</p>
+            <img src="assets/historia.jpg" width="1000" height="auto">
+        </section>
+
+        <section id="filmes">
+            <h2>Filmes da Barbie</h2>
+            <p>Ao longo dos anos, Barbie estrelou mais de 40 filmes animados, começando com "Barbie em Quebra-Nozes" em 2001. Esses filmes variam de contos de fadas a aventuras modernas, sempre com mensagens positivas de amizade, coragem e autoconfiança.</p>
+            <ul>
+                <li>Barbie em Quebra-Nozes (2001)</li>
+                <li>Barbie como Rapunzel (2002)</li>
+                <li>Barbie: Lago dos Cisnes (2003)</li>
+                <li>Barbie como A Princesa e a Plebéia (2004)</li>
+                <li>Barbie Fairytopia (2005)</li>
+                <li>Barbie e a Magia de Aladus (2005)</li>
+                <li>Barbie Diaries (2006)</li>
+                <li>Barbie Fairytopia Mermaidia (2006)</li>
+                <li>Barbie em As 12 Princesas Bailarinas (2006)</li>
+                <li>Barbie Fairytopia: A Magia do Arco-Íris (2007)</li>
+                <li>Barbie e o Castelo de Diamante (2008)</li>
+                <li>Barbie em A Pequena Polegarzinha (2009)</li>
+                <li>Barbie e as Três Mosqueteiras (2009)</li>
+                <li>Barbie em Uma Aventura de Natal (2008)</li>
+                <li>Barbie em Vida de Sereia (2010)</li>
+                <li>Barbie em Moda e Magia (2010)</li>
+                <li>Barbie em Um Natal Perfeito (2011)</li>
+                <li>Barbie: Escola de Princesas (2011)</li>
+                <li>Barbie e as Suas Irmãs em Uma Aventura de Cavalos (2013)</li>
+                <li>Barbie: Vida de Sereia 2 (2012)</li>
+                <li>Barbie e as Suas Irmãs em Um Natal Perfeito (2015)</li>
+                <li>Barbie: Princesa e a Popstar (2012)</li>
+                <li>Barbie e a Porta Secreta (2014)</li>
+                <li>Barbie em Super Princesa (2015)</li>
+                <li>Barbie em Rock’n Royals (2015)</li>
+                <li>Barbie e as Agentes Secretas (2016)</li>
+                <li>Barbie e os Golfinhos Mágicos (2017)</li>
+                <li>Barbie Dreamtopia (2017)</li>
+                <li>Barbie: Aventura nas Estrelas (2017)</li>
+                <li>Barbie Dreamhouse Adventures (2018)</li>
+                <li>Barbie Princess Adventure (2020)</li>
+                <li>Barbie & Chelsea: O Aniversário Perdido (2021)</li>
+                <li>Barbie: Grande Cidade, Grandes Sonhos (2021)</li>
+                <li>Barbie: Mermaid Power (2022)</li>
+                <li>E mais outros filmes não listados.</li>
+            </ul>
+            <img src="assets/Filmes.jfif" alt="Filmes da Barbie">
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens do Mundo Barbie</h2>
+            <p>A Barbie tem muitos amigos e familiares que aparecem ao longo dos anos em várias histórias, incluindo:</p>
+            <ul>
+                <li>Ken Carson: O namorado de longa data da Barbie.</li>
+                <li>Skipper Roberts: A irmã mais nova de Barbie.</li>
+                <li>Stacie Roberts: Outra irmã de Barbie, conhecida por sua personalidade aventureira.</li>
+                <li>Kelly Roberts: A irmã caçula de Barbie.</li>
+                <li>Margaret Roberts: A mãe de Barbie.</li>
+                <li>George Roberts: O pai de Barbie.</li>
+                <li>Teresa Rivera: Melhor amiga da Barbie.</li>
+                <li>Raquelle: Uma rival ocasional de Barbie.</li>
+                <li>Christie: Uma das primeiras amigas de Barbie, introduzida em 1968.</li>
+                <li>Midge Hadley: Amiga de Barbie desde os anos 1960.</li>
+                <li>Allan Sherwood: Amigo de Ken.</li>
+                <li>Steven: Amigo de Barbie.</li>
+                <li>Blissa: O gato de estimação de Barbie.</li>
+                <li>Taffy: O cachorro de estimação de Barbie.</li>
+            </ul>
+            <img src="assets/Personagens.jfif" alt="Personagens da Barbie">
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <ul>
+                <li>Barbie já teve mais de 200 profissões, incluindo astronauta, presidente, médica e engenheira de computação.</li>
+                <li>Se a Barbie fosse uma pessoa real, ela teria aproximadamente 1,75m de altura.</li>
+                <li>O primeiro carro da Barbie, um Austin Healey, foi lançado em 1962.</li>
+                <li>A cada minuto, são vendidas cerca de 100 bonecas Barbie no mundo.</li>
+                <li>Barbie já visitou todos os continentes e até foi ao espaço em 1965.</li>
+                <li>O nome completo da Barbie é Barbara Millicent Roberts.</li>
+                <li>A boneca foi inspirada em uma boneca alemã chamada Bild Lilli.</li>
+                <li>A Barbie é fabricada em vários tamanhos e formatos desde 2016 para promover a inclusão e a diversidade.</li>
+            </ul>
+            <img src="assets/curiosidades.jfif" alt="Curiosidades da Barbie">
+        </section>
     </main>
-    <h2>Ordem para assistir os filmes da saga</h2>
-    <h3>EPISÓDIO I: A AMEAÇA FANTASMA</h3>
-    <img class="eps" src="img/ep1.jpg">
-    <h3>EPISÓDIO II: ATAQUE DOS CLONES</h3>
-    <img class="eps" src="img/ep2.jpg">
-    <h3>EPISÓDIO III: A VINGANÇA DOS SITH</h3>
-    <img class="eps" src="img/ep3.jpg">
-    <h3>HAN SOLO: UMA HISTÓRIA STAR WARS</h3>
-    <img class="eps" src="img/ep4.jpg">
-    <h3>EPISÓDIO VI: O RETORNO DO JEDI</h3>
-    <img class="eps" src="img/ep5.jpg">
-    <h3>EPISÓDIO VII: O DESPERTAR DA FORÇA</h3>
-    <img class="eps" src="img/ep6.jpg">
-    <h3>EPISÓDIO VIII: OS ÚLTIMOS JEDI</h3>
-    <img class="eps" src="img/ep7.jpg">
-    <h3>EPISÓDIO IX: A ASCENSÃO SKYWALKER</h3>
-    <img class="eps" src="img/ep8.jpg">
 
-    <table>
-      <tr>
-        <th>Episódios</th>
-        <th>Data de estreia</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-      </tr>
-      <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-      </tr>
-      <tr>
-        <td>Ernst Handel</td>
-        <td>Roland Mendel</td>
-        <td>Austria</td>
-      </tr>
-      <tr>
-        <td>Island Trading</td>
-        <td>Helen Bennett</td>
-        <td>UK</td>
-      </tr>
-      <tr>
-        <td>Laughing Bacchus Winecellars</td>
-        <td>Yoshi Tannamuri</td>
-        <td>Canada</td>
-      </tr>
-      <tr>
-        <td>Magazzini Alimentari Riuniti</td>
-        <td>Giovanni Rovelli</td>
-        <td>Italy</td>
-      </tr>
-    </table>
-
-    <footer class="rodape">
-        <p>Star Wars - Matheus Batista 2024</p>
+    <footer>
+        <p>Barbie - Matheus de Pauli Batista.</p>
     </footer>
 </body>
 </html>

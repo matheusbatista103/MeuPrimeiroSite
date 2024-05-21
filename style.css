@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(238, 158, 205);
+    background-image: url('./assets/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(241, 117, 200, 0.514);
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    border: 2px solid rgb(255, 0, 128);
+    background-color: rgba(241, 117, 200, 0.521);
+    padding: 1rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    color: rgb(255, 0, 128);
+    font-size: 3em;
+}
+
+.titulo {
+    font-size: 15em;
+}
+
+h2, h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+nav {
+    background: #f8f8f8;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(241, 117, 200);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+section p, li{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: rgba(241, 117, 200, 0.514);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+#Inicio img {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    transform: translate(0, -50%);
+}
