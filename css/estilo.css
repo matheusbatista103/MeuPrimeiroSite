@@ -8,57 +8,115 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    background-color: rgba(241, 117, 200, 0.514);
-    padding: 10px;
-}
-
-.logo img {
-    max-width: 15%;
-    height: auto;
-}
-
-.container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
+header{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 155, 213, 0.521);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    background-color: rgba(255, 155, 213, 0.322);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #f876e2b2;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    container h1 {
+        up: 100px
+    }
+
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(255, 155, 213);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
+    
+    nav ul li label {
+        width: 100%;
+        display: block;
+    }
+}
+
+footer{
     padding: 3%;
 }
 
-.rodape {
-    background-color: rgba(241, 117, 200, 0.514);
-    color: rgb(0, 0, 0);
-    padding: 1rem;
-    bottom: 0;
-    width: 100%;
-}
-
-.titulos {
-    line-height: 3;
-    text-align: center;
-    font-weight: bold;
-}
-
-.caixa-imagem {
-    text-align: center;
-    margin-top: 1%;
-}
-
-figure {
-    text-align: center;
-    display: inline-block;
-}
-
-figure img {
-    display: block;
-    margin: 0 auto;
+.logo img {
     max-width: 100%;
-    height: auto;
-
+    height: 50px;
 }
 
 h1 {
@@ -67,8 +125,8 @@ h1 {
     padding: 1rem;
     border-radius: 5px;
     position: absolute;
-    top: 8%;
-    right: 20%;
+    top: 25%;
+    right: 15%;
     color: rgb(255, 0, 128);
     font-size: 12em;
 }
@@ -88,7 +146,7 @@ h2, h3{
 }
 
 nav {
-    background: #f8f8f8;
+    background: #f8f8f800;
     padding: 1rem;
 }
 
@@ -104,11 +162,6 @@ main {
     margin-right: auto;
 }
 
-.menu {
-    text-align: center;
-    background-color: rgb(241, 117, 200);
-}
-
 section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -119,4 +172,9 @@ figure figcaption {
     margin: 1.0em;
     text-align: center;
     color: black;
+} 
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;    
 }

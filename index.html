@@ -14,13 +14,16 @@
         <div class="logo">
             <img src="./img/Logo.png">
         </div>
-        <nav class="menu">
-            <a href="#Inicio">Home</a>
-            <a href="#historia">História</a>
-            <a href="#filmes">Filmes</a>
-            <a href="#personagens">Personagens</a>
-            <a href="#curiosidades">Curiosidades</a>
-        </nav>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a href="#Inicio" onclick="document.getElementById('menu-toggle').click()">Inicio</a></li>
+                <li><a href="#historia" onclick="document.getElementById('menu-toggle').click()">Hístoria</a></li>
+                <li><a href="#filmes" onclick="document.getElementById('menu-toggle').click()">Filmes</a></li>
+                <li><a href="#personagens" onclick="document.getElementById('menu-toggle').click()">Personagens</a></li>
+                <li><a href="#curiosidades" onclick="document.getElementById('menu-toggle').click()">Curiosidades</a></li>
+            </ul>
     </header>
     
     <main>
