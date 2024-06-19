@@ -28,11 +28,35 @@ header{
     box-sizing: border-box;
 }
 
+h1 {
+    border: 2px solid rgb(255, 0, 128);
+    background-color: rgba(241, 117, 200, 0.521);
+    padding: 1rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    color: rgb(255, 0, 128);
+    font-size: 12em;
+}
+
 p{
     line-height: 1.5;
     font-size: 1.2em;
     text-align: justify;
 }
+
+figure figcaption {
+    margin: 1.0em;
+    text-align: center;
+    color: black;
+} 
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;    
+}
+
 
 nav ul {
     list-style: none;
@@ -68,11 +92,29 @@ nav ul li a:hover {
     display: none;
 }
 
+
 @media (max-width: 768px) {
 
-    container h1 {
-        up: 100px
+    h1 {
+        top: 300px;
+        font-size: 6.0em;
+        text-align: center;
     }
+
+    
+    figure figcaption {
+        margin: 1.0em;
+        text-align: center;
+        color: black;
+        
+    } 
+
+    .caixa-imagem{
+        text-align: center;
+        width: 40%;
+        position: relative;
+    }
+
 
     .menu-icon {
         display: block;
@@ -112,23 +154,13 @@ nav ul li a:hover {
 
 footer{
     padding: 3%;
+    text-align: center;
+
 }
 
 .logo img {
     max-width: 100%;
     height: 50px;
-}
-
-h1 {
-    border: 2px solid rgb(255, 0, 128);
-    background-color: rgba(241, 117, 200, 0.521);
-    padding: 1rem;
-    border-radius: 5px;
-    position: absolute;
-    top: 25%;
-    right: 15%;
-    color: rgb(255, 0, 128);
-    font-size: 12em;
 }
 
 p, li{
@@ -166,15 +198,4 @@ section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #000000;
-}
-
-figure figcaption {
-    margin: 1.0em;
-    text-align: center;
-    color: black;
-} 
-
-.caixa-imagem{
-    text-align: center;
-    margin-top: 1%;    
 }
